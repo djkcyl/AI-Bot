@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ai-bot"
+version = "0.1.0"
+description = "A highly intelligent chatbot"
+authors = ["djkcyl <cyl@cyllive.cn>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+graia-ariadne = "^0.7.14"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+black = {version = "^22.3.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
